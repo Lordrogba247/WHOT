@@ -18,7 +18,7 @@ const Menu = () => {
                             <img src={barImage} alt="Unwind in style" />
                         </div>
                         <div className="menu-card-content">
-                            <h3 className="menu-card-title">Unwind in style</h3>
+                            <h3 className="menu-card-title">Unwind in Style</h3>
                             <p className="menu-card-description">
                                 At Whot Restaurant & Lounge, every menu is specially crafted to stir your senses.
                             </p>
