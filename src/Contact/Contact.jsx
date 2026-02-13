@@ -50,7 +50,7 @@ const Contact = () => {
                     <div className="reservation-header">
                         <h3 className="reservation-subtitle">Reservations</h3>
                         <h2 className="reservation-title">
-                            Make your reservations for that special moment ad experience luxury with fun at Whot Restaurant & Lounge
+                            Make your reservations for that special moment and experience luxury with fun at Whot Restaurant & Lounge
                         </h2>
                     </div>
 
