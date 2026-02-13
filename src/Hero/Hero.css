@@ -56,6 +56,8 @@ body {
   letter-spacing: 0.03em;
   font-family: "Libre Baskerville", serif;
   opacity: 0.95;
+  max-width: 500px;
+  text-align: center;
 }
 
 .hero-buttons {

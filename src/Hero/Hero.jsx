@@ -10,7 +10,7 @@ const Hero = () => {
                 <h1 className="hero-title">Eat, Drink & Vibe</h1>
                 <p className="hero-subtitle">
                     <em>At Whot Restaurant & Lounge, every menu is specially curated
-                        <br />
+
                         to the next level, welcoming guests to unwind and indulge.</em>
                 </p>
                 <div className="hero-buttons">
