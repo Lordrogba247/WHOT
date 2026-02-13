@@ -1,0 +1,135 @@
+.contact2-section {
+  background-color: #f5f5f5;
+  padding: 3rem 2rem;
+  border-top: 2px solid #000000;
+}
+
+.contact2-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.contact2-title {
+  text-align: center;
+  font-size: 1.8rem;
+  font-weight: 400;
+  margin-bottom: 2.5rem;
+  font-family: "Libre Baskerville", serif;
+  color: #000000;
+}
+
+.contact2-content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.contact2-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  /* justify-content: center; */
+  align-items: center;
+  /* align-content: center; */
+}
+
+.contact2-heading {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: #d4af37;
+  font-family: "Libre Baskerville", serif;
+}
+
+.contact2-text {
+  font-size: 0.95rem;
+  line-height: 1.6;
+  color: #000000;
+  font-family: "Libre Baskerville", serif;
+  font-weight: 300;
+  margin: 0;
+}
+
+.contact2-link {
+  color: #000000;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.contact2-link:hover {
+  color: #d4af37;
+}
+
+.contact2-address-link {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+}
+
+.contact2-address-link:hover {
+  color: #d4af37;
+}
+
+.social-icons {
+  display: flex;
+  gap: 1rem;
+  margin-top: 0.5rem;
+}
+
+.social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  /* border-radius: 50%; */
+  color: #ffffff;
+  transition: all 0.3s ease;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  transform: translateY(-3px);
+}
+
+.social-link svg {
+  width: 24px;
+  height: 24px;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .contact2-section {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .contact2-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .contact2-title {
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact2-section {
+    padding: 2rem 1rem;
+  }
+
+  .contact2-title {
+    font-size: 1.4rem;
+  }
+
+  .contact2-text {
+    font-size: 0.9rem;
+  }
+}
