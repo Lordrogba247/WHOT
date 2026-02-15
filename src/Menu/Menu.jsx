@@ -29,7 +29,7 @@ const Menu = () => {
                     {/* Card 2 */}
                     <div className="menu-card">
                         <div className="menu-card-image">
-                            <img src={riceImage} alt="Every Bite Speaks" />
+                            <img src={steakImage} alt="Every Bite Speaks" />
                         </div>
                         <div className="menu-card-content">
                             <h3 className="menu-card-title">Every Bite Speaks</h3>
