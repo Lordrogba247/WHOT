@@ -11,7 +11,7 @@ const Hero = () => {
                 <p className="hero-subtitle">
                     <em>At Whot Restaurant & Lounge, every menu is specially curated
 
-                        to the next level, welcoming guests to unwind and indulge...</em>
+                        to the next level, welcoming guests to unwind and indulge. . .</em>
                 </p>
                 <div className="hero-buttons">
                     <Link to="/reservations" className="hero-btn hero-btn-primary">
