@@ -6,6 +6,7 @@ import steakImage from '../assets/Frame 38 (1).jpg';
 import cocktailImage from '../assets/Frame 38 (2).jpg';
 import riceImage from '../assets/Rice.jpg';
 
+
 const Menu = () => {
     return (
         <section className="menu-section">
@@ -29,7 +30,7 @@ const Menu = () => {
                     {/* Card 2 */}
                     <div className="menu-card">
                         <div className="menu-card-image">
-                            <img src={steakImage} alt="Every Bite Speaks" />
+                            <img src={riceImage} alt="Every Bite Speaks" />
                         </div>
                         <div className="menu-card-content">
                             <h3 className="menu-card-title">Every Bite Speaks</h3>
