@@ -4,7 +4,7 @@ import './Menu.css';
 import barImage from '../assets/Frame 38.jpg';
 import steakImage from '../assets/Frame 38 (1).jpg';
 import cocktailImage from '../assets/Frame 38 (2).jpg';
-import riceImage from '../assets/IMG-20260214-WA0007.jpg';
+import riceImage from '../assets/Rice.jpg';
 
 const Menu = () => {
     return (
