@@ -4,6 +4,7 @@ import './Menu.css';
 import barImage from '../assets/Frame 38.jpg';
 import steakImage from '../assets/Frame 38 (1).jpg';
 import cocktailImage from '../assets/Frame 38 (2).jpg';
+import riceImage from '../assets/IMG-20260214-WA0007.jpg'
 
 const Menu = () => {
     return (
@@ -28,7 +29,7 @@ const Menu = () => {
                     {/* Card 2 */}
                     <div className="menu-card">
                         <div className="menu-card-image">
-                            <img src={steakImage} alt="Every Bite Speaks" />
+                            <img src={riceImage} alt="Every Bite Speaks" />
                         </div>
                         <div className="menu-card-content">
                             <h3 className="menu-card-title">Every Bite Speaks</h3>
@@ -46,7 +47,7 @@ const Menu = () => {
                         <div className="menu-card-content">
                             <h3 className="menu-card-title">Drink, Dine, Relax</h3>
                             <p className="menu-card-description">
-                                Whether you are dining or sipping your favourite cocktail, every bite speaks to your palette.
+                                Whether you are dining or sipping your favourite cocktail, every sip speaks to your palette.
                             </p>
                         </div>
                     </div>
