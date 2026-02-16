@@ -30,7 +30,7 @@ const Contact = () => {
             `Message:\n${formData.message}`
         );
 
-        window.location.href = `mailto:info@whot.ca?subject=${subject}&body=${body}`;
+        window.location.href = `mailto:zetokehospitalitypartners@gmail.com?subject=${subject}&body=${body}`;
 
         // Reset form
         setFormData({
